@@ -1,0 +1,25 @@
+{
+	"hideExportButtonCSV":false,
+	"hideExportButtonPDF":false,
+	"urlPrintTask":"http://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task/execute",
+	"urlPrintServlet": "/viewercru2d/services/printServiceServlet",
+	"widthMapExportPort": 575,
+	"heightMapExportPort": 680,
+	"widthMapExportLand": 822,
+	"heightMapExportLand": 420,
+	"dpi":96,
+	"onlyPoint":false,
+	"services": [
+    ],
+
+	"highLightColorOutline":"#000000",
+	"highLightColorFill":"#ffff00",
+	
+	"highLightColorUserOutline":"#ff0000",
+	"highLightColorUserFill":"#ff0000",
+	
+	"pointColor":"#000080",
+	"outlineColor":"#000080",
+	"fillColor":"#000080",
+	"bufferColor":"#000080"
+}

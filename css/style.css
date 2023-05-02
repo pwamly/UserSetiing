@@ -1,0 +1,59 @@
+/*#dojox_layout_ResizeHandle_0 {
+	display: none !important;
+}*/
+
+/* .dgrid {
+    height: 220px !important;
+    width: 320px !important;
+}
+
+.jimu-widget-attributetable-main {
+	height: 300px; !important;
+}
+
+.dijitTabPaneWrapper {
+	height: 240px !important;
+	width: 340px !important;
+} */
+
+.dijitTabContainer {
+	height: 284px !important;
+}
+
+.tabStripButton {
+	height: 24px !important;
+}
+
+.jimu-draw-box {
+	margin-top: 10px !important;
+}
+.input-label {
+    color: #686868;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+#popUpPrint {
+	height: 350px !important;
+}
+
+.jimu-popup-btn {
+	background: none repeat scroll 0 0 #23b692 !important;
+}
+
+.btnclearpoly {
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-top: 1px;
+    text-decoration: underline;
+}
+
+
+#divAttributeTableData{
+  min-width: 1200px !important;
+}
+
+
+
+

@@ -1,0 +1,82 @@
+<div style="width:320px;">
+	<div class="symbol-section point-symbol-section" data-dojo-attach-point="pointSection">
+		<table class="symbol-set-table" cellspacing="5" style="width:390px;"">
+			<tbody>
+				<tr>
+					<td style="width:100px;height:0px;"></td>
+					<td style="width:330px;height:0px;"></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<span> ${nls.layout}:</span>
+					</td>
+					<td>
+						<input data-dojo-attach-point="slcLayout" data-dojo-type="dijit/form/Select"
+						data-dojo-props="name:'layout',style:'width:100%;',value:''">
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="height: 10px;"/>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						<input data-dojo-attach-point="ckbMap" checked
+						id="mycheck" name="mycheck" 
+						data-dojo-type="dijit/form/CheckBox"  
+						data-dojo-attach-event="onChange:ckbExportMap"/><!-- checked -->
+						<span>${nls.exportMap}</span> 
+						<!-- <label for="mycheck">${nls.exportMap}</label>-->
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" style="height: 5px;"/>
+				</tr>
+				
+				<!--<tr>
+					<td>
+						<span>${nls.titleMap}:</span>
+					</td>
+					<td >
+						<input data-dojo-attach-point="txtTitle" data-dojo-type="dijit/form/TextBox" 
+                        type="text" data-dojo-props="name:'title',style:'width:100%;',value:'${nls.defaultTitleMap}'"/>
+					</td>
+				</tr>-->
+				
+				<tr>
+					<td>
+						<span>${nls.author}:</span>
+					</td>
+					<td>
+                        <input data-dojo-attach-point="txtAuthor" data-dojo-type="dijit/form/TextBox" 
+                        type="text" data-dojo-props="name:'title1',style:'width:100%;',value:''"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<span>${nls.comments}:</span>
+					</td>
+					<td>
+						<textarea data-dojo-type="dijit/form/Textarea" 
+						data-dojo-attach-point="txtComments"
+						data-dojo-props="name:'comments',style:'width:100%;max-height:90px;min-height:90px;',value:''"></textarea>
+					</td>
+				</tr>
+				
+				<!--<tr>
+					<td>
+						<span> ${nls.scale}:</span>
+					</td>
+					<td>
+                        <input data-dojo-attach-point="txtScale" data-dojo-type="dijit/form/TextBox" 
+                        type="text"  data-dojo-props="name:'title2',style:'width:100%;',value:''"/>
+					</td>
+				</tr>-->
+			</tbody>
+		</table>
+	</div>
+</div>
