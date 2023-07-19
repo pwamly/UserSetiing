@@ -1,59 +1,36 @@
-/*#dojox_layout_ResizeHandle_0 {
-	display: none !important;
-}*/
-
-/* .dgrid {
-    height: 220px !important;
-    width: 320px !important;
+#main-content{
+    display: flex;
+    justify-content: center;
+    background: blue;
 }
 
-.jimu-widget-attributetable-main {
-	height: 300px; !important;
+#title{
+    /* color: red; */
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
 }
 
-.dijitTabPaneWrapper {
-	height: 240px !important;
-	width: 340px !important;
-} */
+#form-wraper{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+#form-title{
+    display: flex;
+    justify-content: left;
+    /* background: yellow; */
+    width: 100%;
+    margin-bottom: 20px;
 
-.dijitTabContainer {
-	height: 284px !important;
 }
 
-.tabStripButton {
-	height: 24px !important;
-}
+label {
+    margin-right: 10px;
+  }
 
-.jimu-draw-box {
-	margin-top: 10px !important;
-}
-.input-label {
-    color: #686868;
-    font-size: 14px;
-    overflow: hidden;
-}
-
-#popUpPrint {
-	height: 350px !important;
-}
-
-.jimu-popup-btn {
-	background: none repeat scroll 0 0 #23b692 !important;
-}
-
-.btnclearpoly {
-    cursor: pointer;
-    display: block;
-    float: right;
-    margin-top: 1px;
-    text-decoration: underline;
-}
-
-
-#divAttributeTableData{
-  min-width: 1200px !important;
-}
-
-
-
-
+#selectOption{
+width: auto;
+  }
