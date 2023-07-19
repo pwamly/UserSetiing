@@ -1,6 +1,6 @@
 {
-  "name": "Selection",
-  "label": "Ricerca",
+  "name": "UserSettings",
+  "label": "UserSettings",
   "platform": "HTML",
   "type": "widget",
   "version": "1.0",
