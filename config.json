@@ -10,6 +10,10 @@
 	"dpi":96,
 	"onlyPoint":false,
 	"services": [
+		{
+			"apiEndpoint": "https://example.com/api" 
+		  }
+		  
     ],
 
 	"highLightColorOutline":"#000000",
