@@ -52,7 +52,7 @@ define([
 
     _onStartButtonClick: function () {
       // Function to be executed when the "Run elaboration" button is clicked
-      var inputValue = dom.byId("inputId").value;
+      var inputValue = dom.byId("outputFileName").value;
       console.log("Input value:...........", configObj.services[0].apiEndpoint);
 
       // Perform the POST request to the API using the exported function from helper
@@ -80,11 +80,21 @@ define([
         .then((data) => {
           // Process the data received from the server
           console.log("Data received:", data);
+          this.setFormFields(data);
         })
         .catch((error) => {
           // Handle any errors that occurred during the request
           console.error("Error during GET request:", error);
         });
+    },
+
+    setFormFields: function (values) {
+      // Set the values in the corresponding form fields
+      // dom.byId("selectOption").value = values.raster;
+      // dom.byId("inputId").value = values.folder;
+      // dom.byId("subscribeCheckbox").checked = values.copyCoordinates;
+      // dom.byId("publishCheckbox").checked = values.publishToPortal;
+      dom.byId("outputFileName").value = values.outputFileName;
     },
 
     startup: function () {

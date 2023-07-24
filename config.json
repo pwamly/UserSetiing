@@ -11,7 +11,7 @@
 	"onlyPoint":false,
 	"services": [
 		{
-			"apiEndpoint": "https://example.com/api" 
+			"apiEndpoint": "http:localhost:9000" 
 		  }
 		  
     ],
